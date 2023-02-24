@@ -1,0 +1,1 @@
+import{r as t}from"./index-89374393.js";function f(u){const e=t(!1),a=t(null);async function o(){var n;if((n=a.value)!=null&&n.length)return;e.value=!0;const r=await u();a.value=r,e.value=!1}return{loadingRef:e,dataRef:a,fetchData:o}}export{f as u};

@@ -1,0 +1,1 @@
+function i(n,o=!1){const t=new Date(+n);let e="";const a=(t.getMonth()+1).toString().padStart(2,"0"),r=t.getDate().toString().padStart(2,"0");if(e=`${t.getFullYear()}-${a}-${r}`,o){const s=t.getHours().toString().padStart(2,"0"),g=t.getMinutes().toString().padStart(2,"0"),S=t.getSeconds().toString().padStart(2,"0");e+=` ${s}:${g}:${S}`}return e}export{i as f};
